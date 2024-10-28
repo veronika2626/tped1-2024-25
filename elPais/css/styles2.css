@@ -115,6 +115,7 @@ li::before {
 li {
   margin-bottom: 10px;
   display: inline-block;
+  font-weight: normal; 
 }
 
 footer {
