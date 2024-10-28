@@ -83,7 +83,7 @@ strong {
 }
 
 .container img {   /* Override the container width for images only */
-  width: 100%;
+  width: 110%;
   height: auto;
   margin: 0 auto;   /* Center the images */
 }
