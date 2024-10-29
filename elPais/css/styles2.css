@@ -82,18 +82,15 @@ strong {
   color: black;
 }
 
-.container img {   /* Override the container width for images only */
-  width: 150%;
-  height: auto;
-  margin: 0 auto;   /* Center the images */
+.paragraph-image-container {
+  max-width: 700px;
+  margin: 0 auto;
+  text-align: center;
 }
 
-img {
+.paragraph-image {
   width: 100%;
   height: auto;
-  margin-left: auto;
-  margin-right: auto;
-  max-width: none;
 }
 
 .header-img {
