@@ -22,7 +22,7 @@ h1, h2, h3, a, em, strong {
 }
 
 h1, h2, h3 {
-  width: 100%;  /* Ensure headers stretch across the container */
+  width: 100%;
 }
 
 .container h1 {
@@ -82,15 +82,10 @@ strong {
   color: black;
 }
 
-.paragraph-image-container {
-  max-width: 700px;
-  margin: 0 auto;
-  text-align: center;
-}
-
 .paragraph-image {
   width: 100%;
   height: auto;
+  margin-top: 10px;
 }
 
 .header-img {
