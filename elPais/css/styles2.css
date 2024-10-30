@@ -122,3 +122,10 @@ footer {
   margin: 0 auto; 
   max-width: 600px; 
 }
+
+.container-image {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
