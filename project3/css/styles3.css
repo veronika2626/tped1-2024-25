@@ -4,7 +4,7 @@
 
 body {
     font-family: Montserrat, sans-serif;
-    background-color: #f0f0f0;
+    background-color: white;
     color: black;
     text-align: center;
 }
@@ -24,54 +24,44 @@ h1 {
 
 .gallery a {
     display: block;
+    position: relative; /* Necessary for overlay positioning */
 }
 
 .gallery img {
     width: 100%;
     filter: grayscale(100%);
-    transition: filter 0.3s ease; /* Adds a smooth 0.3-second transition for the filter effect when hovering */
+    transition: filter 0.3s ease, opacity 0.5s ease;; /* Adds a smooth 0.3-second transition for the filter effect when hovering */
 }
 
-.gallery img:hover {
-    filter: grayscale(0%);
-}
+/* Overlay container */
 .container {
     position: relative;
-    width: 50%;
-    display: inline-block;
-    margin: 10px;
 }
 
-.image {
-    opacity: 1;
-    display: block;
-    width: 100%;
-    height: auto;
-    transition: 0.5s ease;
-    backface-visibility: hidden;
-}
-
+/* Overlay text styling */
 .middle {
-    transition: 0.5s ease;
-    opacity: 0;
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-}
-
-.container:hover .image {
-    opacity: 0.3;
-}
-
-.container:hover .middle {
-    opacity: 1;
-}
-
-.text {
+    opacity: 0;
+    transition: opacity 0.5s ease;
     background-color: black, 70%;
     color: white;
     font-size: 16px;
-    padding: 16px 32px;
+    padding: 10px 20px;
+    border-radius: 5px;
     text-align: center;
+}
+
+.gallery a:hover img {
+    filter: grayscale(0%);
+    opacity: 0.3;
+}
+
+.gallery a:hover .middle {
+    opacity: 1; 
+}
+.container {
+    position: relative;
 }
