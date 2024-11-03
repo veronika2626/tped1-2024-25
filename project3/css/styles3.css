@@ -22,15 +22,12 @@ h1 {
     padding: 20px;
 }
 
-.gallery a {
-    display: block;
-    position: relative; /* Necessary for overlay positioning */
-}
-
 .gallery img {
     width: 100%;
+    height: auto;
+    object-fit: cover; 
     filter: grayscale(100%);
-    transition: filter 0.3s ease, opacity 0.5s ease;; /* Adds a smooth 0.3-second transition for the filter effect when hovering */
+    transition: filter 0.3s ease, opacity 0.5s ease; /* Adds a smooth 0.3-second transition for the filter effect when hovering */
 }
 
 /* Overlay container */
@@ -46,7 +43,7 @@ h1 {
     transform: translate(-50%, -50%);
     opacity: 0;
     transition: opacity 0.5s ease;
-    background-color: black, 70%;
+    background-color: rgba(0, 0, 0, 0.7);
     color: white;
     font-size: 16px;
     padding: 10px 20px;
