@@ -45,9 +45,7 @@ h1 {
 
 .container {
     position: relative;
-    flex: 1 1 30%; 
     margin: 10px;
-    max-width: 30%; 
     min-width: 200px;
 }
 
