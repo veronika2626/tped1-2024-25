@@ -1,0 +1,27 @@
+.full-height {
+    height: 50vh;
+  }
+  
+  .top {
+    background-color: lightgreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+  }
+  
+  .left {
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+  }
+  
+  .right {
+    background-color: lightcoral;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+  }
