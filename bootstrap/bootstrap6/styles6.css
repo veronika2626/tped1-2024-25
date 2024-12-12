@@ -26,7 +26,7 @@
 }
 
 .middle-section {
-  height: 71.67vh;
+  height: calc(100% - 8.33vh);
 }
 
 .nested-left {
