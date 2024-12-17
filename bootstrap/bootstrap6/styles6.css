@@ -3,7 +3,7 @@
 }
 
 #top-center {
-  height: 20vh;
+  height: 25vh;
   background-color: lightblue;
   display: flex;
   align-items: center;
@@ -21,7 +21,7 @@
 }
 
 #middle-section {
-  height: calc(100% - 8.33vh);
+  height: 62.5vh;
 }
 
 #nested-left {
@@ -43,7 +43,7 @@
 }
 
 #bottom-section {
-  height: 8.33vh;
+  height: 12.5vh;
 }
 
 #narrow-section {
