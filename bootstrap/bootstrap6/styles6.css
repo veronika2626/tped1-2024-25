@@ -2,12 +2,7 @@
   height: 100vh;
 }
 
-.top-left {
-  height: 20vh;
-  background-color: transparent;
-}
-
-.top-center {
+#top-center {
   height: 20vh;
   background-color: lightblue;
   display: flex;
@@ -16,7 +11,7 @@
   color: #000;
 }
 
-.right-full {
+#right-full {
   height: 100vh;
   background-color: lightcoral;
   display: flex;
@@ -25,11 +20,11 @@
   color: #fff;
 }
 
-.middle-section {
+#middle-section {
   height: calc(100% - 8.33vh);
 }
 
-.nested-left {
+#nested-left {
   height: 100%;
   background-color: lightgreen;
   display: flex;
@@ -38,8 +33,8 @@
   color: #000;
 }
 
-.nested-right {
-  height: 100%; 
+#nested-right {
+  height: 100%;
   background-color: lightyellow;
   display: flex;
   align-items: center;
@@ -47,11 +42,11 @@
   color: #000;
 }
 
-.bottom-section {
+#bottom-section {
   height: 8.33vh;
 }
 
-.narrow-section {
+#narrow-section {
   background-color: lightgray;
   display: flex;
   align-items: center;
