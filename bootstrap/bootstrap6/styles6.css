@@ -1,55 +1,54 @@
 .full-height {
-  height: 100vh;
-}
-
-#top-center {
-  height: 25vh;
-  background-color: lightblue;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #000;
-}
-
-#right-full {
-  height: 100vh;
-  background-color: lightcoral;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #fff;
-}
-
-#middle-section {
-  height: 62.5vh;
-}
-
-#nested-left {
-  height: 100%;
-  background-color: lightgreen;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #000;
-}
-
-#nested-right {
-  height: 100%;
-  background-color: lightyellow;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #000;
-}
-
-#bottom-section {
-  height: 12.5vh;
-}
-
-#narrow-section {
-  background-color: lightgray;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #000;
-}
+    height: 100vh;
+  }
+  
+  .top-section {
+    height: 25vh;
+  }
+  
+  .centered-top {
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+    height: 100%;
+  }
+  
+  .middle-section {
+    height: 65vh;
+  }
+  
+  .left-middle {
+    background-color: lightgreen;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+  }
+  
+  .center-middle {
+    background-color: lightcoral;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+  }
+  
+  .right-middle {
+    height: 100vh;
+    background-color: lightyellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+  }
+  
+  .bottom-section {
+    height: 10vh;
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+  }
