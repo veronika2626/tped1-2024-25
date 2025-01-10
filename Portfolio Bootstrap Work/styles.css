@@ -1,0 +1,43 @@
+.top-row {
+    height: 12.5vh; /* 1/8th of viewport height */
+}
+
+.second-row {
+    height: 12.5vh; /* 1/8th of viewport height */
+}
+
+.third-row {
+    height: 12.5vh; /* 1/8th of viewport height */
+}
+
+.fourth-row {
+    height: 25vh; /* 2/8ths of viewport height */
+}
+
+.bottom-row {
+    height: 25vh; /* 2/8ths of viewport height */
+}
+
+.bg-cyan {
+    background-color: cyan;
+}
+
+.bg-blue {
+    background-color: blue;
+}
+
+.bg-pink {
+    background-color: pink;
+}
+
+.bg-yellow {
+    background-color: yellow;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.bg-green {
+    background-color: green;
+}
